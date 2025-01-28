@@ -29,13 +29,13 @@ $film = new Movie('Toto sur la planete', 'Action', 18);
 ?>
 
 <?php if ($film->canWatch(12)): ?>
-  <p>Vous pouvez regarder le film</p>
+  <p>Vous pouvez regarder <?= $film->title ?></p>
 <?php else: ?>
-  <p>Vous ne pouvez pas regarder le film</p>
+  <p>Vous ne pouvez pas regarder <?= $film->title ?></p>
 <?php endif; ?>
 
 <?php if ($film->canWatch(19)): ?>
-  <p>Vous pouvez regarder le film</p>
+  <p>Vous pouvez regarder <?= $film->title ?></p>
 <?php else: ?>
-  <p>Vous ne pouvez pas regarder le film</p>
+  <p>Vous ne pouvez pas regarder <?= $film->title ?></p>
 <?php endif; ?>
