@@ -1,6 +1,6 @@
 # Consignes
 
-> Pour certains tests, il faudra lancer le conteneur du coup car j'ai fais des affichages dans le DOM directement (avec des balises html)
+> Pour lancer le conteneur, voici les consignes.
 
 1. Dans le terminal, allez dans le dossier a la racine
 2. Tapez la commande ``docker-compose up -d``
